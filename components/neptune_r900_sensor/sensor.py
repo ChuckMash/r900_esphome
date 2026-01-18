@@ -36,7 +36,7 @@ async def to_code(config):
     var = cg.new_Pvariable(config[CONF_ID])
     await cg.register_component(var, config)
 
-    cg.add_library('rtl_433_ESP', None, 'https://github.com/Entropy512/rtl_433_ESP#neptune_r900')
+    cg.add_library('rtl_433_ESP', None, 'https://github.com/ChuckMash/rtl_433_ESP#neptune_r900')
     #cg.add_library('rtl_433_ESP', None, 'file:///home/adodd/gitrepos/rtl_433_ESP')
     cg.add_library('RadioLib', None)
 
